@@ -55,7 +55,7 @@ typedef void(^wylRefreshBlock)(void);
 /**
  布置subViews
  */
-- (void)placeSubviews;
+- (void)resetSubviews;
 
 /**
  开始刷新
