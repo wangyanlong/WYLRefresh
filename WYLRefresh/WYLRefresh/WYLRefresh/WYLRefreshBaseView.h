@@ -7,6 +7,8 @@
 //  纯模仿MJRefresh
 
 #import <UIKit/UIKit.h>
+#import "UIView+WYLExtention.h"
+#import "UIScrollView+WYLExtention.h"
 
 /**
  刷新的几种状态
@@ -14,7 +16,7 @@
 typedef NS_ENUM(NSInteger, WYLRefreshState) {
 
     WYLRefreshStateIdle = 1,        //闲置状态
-    WYLRefreshStatePulling,         //正在拉动的状态(释放就刷新)
+    WYLRefreshStatePulling,         //释放就刷新状态
     WYLRefreshStateRefreshing,      //正在刷新状态
     WYLRefreshStateWillRefresh,     //即将刷新
     WYLRefreshStateNoMoreData       //没有数据

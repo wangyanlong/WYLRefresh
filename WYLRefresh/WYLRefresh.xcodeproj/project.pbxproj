@@ -16,6 +16,9 @@
 		188FBFBD1EDBC4E70089A3A8 /* WYLRefreshBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 188FBFBC1EDBC4E70089A3A8 /* WYLRefreshBaseView.m */; };
 		188FBFC01EDC04E60089A3A8 /* RefreshViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 188FBFBF1EDC04E60089A3A8 /* RefreshViewController.m */; };
 		188FBFC41EDC43180089A3A8 /* UIView+WYLExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = 188FBFC31EDC43180089A3A8 /* UIView+WYLExtention.m */; };
+		188FBFC71EDC53600089A3A8 /* WYLRefreshBaseHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 188FBFC61EDC53600089A3A8 /* WYLRefreshBaseHeader.m */; };
+		188FBFCA1EDC61580089A3A8 /* UIScrollView+WYLExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = 188FBFC91EDC61580089A3A8 /* UIScrollView+WYLExtention.m */; };
+		188FBFCD1EDC62B30089A3A8 /* UIScrollView+WYLRefreshCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 188FBFCC1EDC62B30089A3A8 /* UIScrollView+WYLRefreshCategory.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +38,12 @@
 		188FBFBF1EDC04E60089A3A8 /* RefreshViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RefreshViewController.m; sourceTree = "<group>"; };
 		188FBFC21EDC43180089A3A8 /* UIView+WYLExtention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WYLExtention.h"; sourceTree = "<group>"; };
 		188FBFC31EDC43180089A3A8 /* UIView+WYLExtention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WYLExtention.m"; sourceTree = "<group>"; };
+		188FBFC51EDC53600089A3A8 /* WYLRefreshBaseHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYLRefreshBaseHeader.h; sourceTree = "<group>"; };
+		188FBFC61EDC53600089A3A8 /* WYLRefreshBaseHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYLRefreshBaseHeader.m; sourceTree = "<group>"; };
+		188FBFC81EDC61580089A3A8 /* UIScrollView+WYLExtention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+WYLExtention.h"; sourceTree = "<group>"; };
+		188FBFC91EDC61580089A3A8 /* UIScrollView+WYLExtention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+WYLExtention.m"; sourceTree = "<group>"; };
+		188FBFCB1EDC62B30089A3A8 /* UIScrollView+WYLRefreshCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+WYLRefreshCategory.h"; sourceTree = "<group>"; };
+		188FBFCC1EDC62B30089A3A8 /* UIScrollView+WYLRefreshCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+WYLRefreshCategory.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +106,8 @@
 				188FBFC11EDC43100089A3A8 /* Category */,
 				188FBFBB1EDBC4E70089A3A8 /* WYLRefreshBaseView.h */,
 				188FBFBC1EDBC4E70089A3A8 /* WYLRefreshBaseView.m */,
+				188FBFC51EDC53600089A3A8 /* WYLRefreshBaseHeader.h */,
+				188FBFC61EDC53600089A3A8 /* WYLRefreshBaseHeader.m */,
 			);
 			path = WYLRefresh;
 			sourceTree = "<group>";
@@ -104,8 +115,12 @@
 		188FBFC11EDC43100089A3A8 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				188FBFC81EDC61580089A3A8 /* UIScrollView+WYLExtention.h */,
+				188FBFC91EDC61580089A3A8 /* UIScrollView+WYLExtention.m */,
 				188FBFC21EDC43180089A3A8 /* UIView+WYLExtention.h */,
 				188FBFC31EDC43180089A3A8 /* UIView+WYLExtention.m */,
+				188FBFCB1EDC62B30089A3A8 /* UIScrollView+WYLRefreshCategory.h */,
+				188FBFCC1EDC62B30089A3A8 /* UIScrollView+WYLRefreshCategory.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -182,8 +197,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				188FBFCD1EDC62B30089A3A8 /* UIScrollView+WYLRefreshCategory.m in Sources */,
+				188FBFC71EDC53600089A3A8 /* WYLRefreshBaseHeader.m in Sources */,
 				188FBFBD1EDBC4E70089A3A8 /* WYLRefreshBaseView.m in Sources */,
 				188FBFC01EDC04E60089A3A8 /* RefreshViewController.m in Sources */,
+				188FBFCA1EDC61580089A3A8 /* UIScrollView+WYLExtention.m in Sources */,
 				1878AF9E1EDB1A7F00086425 /* ViewController.m in Sources */,
 				1878AF9B1EDB1A7F00086425 /* AppDelegate.m in Sources */,
 				188FBFC41EDC43180089A3A8 /* UIView+WYLExtention.m in Sources */,

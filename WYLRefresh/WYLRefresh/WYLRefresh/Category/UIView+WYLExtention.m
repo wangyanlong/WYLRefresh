@@ -10,10 +10,10 @@
 
 @implementation UIView (WYLExtention)
 
-- (void)setWyl_x:(CGFloat)eoc_x
+- (void)setWyl_x:(CGFloat)wyl_x
 {
     CGRect frame = self.frame;
-    frame.origin.x = eoc_x;
+    frame.origin.x = wyl_x;
     self.frame = frame;
 }
 
@@ -22,10 +22,10 @@
     return self.frame.origin.x;
 }
 
-- (void)setWyl_y:(CGFloat)eoc_y
+- (void)setWyl_y:(CGFloat)wyl_y
 {
     CGRect frame = self.frame;
-    frame.origin.y = eoc_y;
+    frame.origin.y = wyl_y;
     self.frame = frame;
 }
 
@@ -34,10 +34,10 @@
     return self.frame.origin.y;
 }
 
-- (void)setWyl_w:(CGFloat)eoc_w
+- (void)setWyl_w:(CGFloat)wyl_w
 {
     CGRect frame = self.frame;
-    frame.size.width = eoc_w;
+    frame.size.width = wyl_w;
     self.frame = frame;
 }
 
@@ -46,10 +46,10 @@
     return self.frame.size.width;
 }
 
-- (void)setWyl_h:(CGFloat)eoc_h
+- (void)setWyl_h:(CGFloat)wyl_h
 {
     CGRect frame = self.frame;
-    frame.size.height = eoc_h;
+    frame.size.height = wyl_h;
     self.frame = frame;
 }
 
@@ -58,10 +58,10 @@
     return self.frame.size.height;
 }
 
-- (void)setWyl_size:(CGSize)eoc_size
+- (void)setWyl_size:(CGSize)wyl_size
 {
     CGRect frame = self.frame;
-    frame.size = eoc_size;
+    frame.size = wyl_size;
     self.frame = frame;
 }
 
@@ -70,10 +70,10 @@
     return self.frame.size;
 }
 
-- (void)setWyl_origin:(CGPoint)eoc_origin
+- (void)setWyl_origin:(CGPoint)wyl_origin
 {
     CGRect frame = self.frame;
-    frame.origin = eoc_origin;
+    frame.origin = wyl_origin;
     self.frame = frame;
 }
 

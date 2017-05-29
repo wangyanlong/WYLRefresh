@@ -7,7 +7,6 @@
 //
 
 #import "WYLRefreshBaseView.h"
-#import "UIView+WYLExtention.h"
 
 @implementation WYLRefreshBaseView
 
