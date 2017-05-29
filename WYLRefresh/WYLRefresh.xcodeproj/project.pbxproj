@@ -13,6 +13,8 @@
 		1878AFA11EDB1A7F00086425 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1878AF9F1EDB1A7F00086425 /* Main.storyboard */; };
 		1878AFA31EDB1A7F00086425 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1878AFA21EDB1A7F00086425 /* Assets.xcassets */; };
 		1878AFA61EDB1A7F00086425 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1878AFA41EDB1A7F00086425 /* LaunchScreen.storyboard */; };
+		188FBFBD1EDBC4E70089A3A8 /* WYLRefreshBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 188FBFBC1EDBC4E70089A3A8 /* WYLRefreshBaseView.m */; };
+		188FBFC01EDC04E60089A3A8 /* RefreshViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 188FBFBF1EDC04E60089A3A8 /* RefreshViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		1878AFA21EDB1A7F00086425 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1878AFA51EDB1A7F00086425 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1878AFA71EDB1A7F00086425 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		188FBFBB1EDBC4E70089A3A8 /* WYLRefreshBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYLRefreshBaseView.h; sourceTree = "<group>"; };
+		188FBFBC1EDBC4E70089A3A8 /* WYLRefreshBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYLRefreshBaseView.m; sourceTree = "<group>"; };
+		188FBFBE1EDC04E60089A3A8 /* RefreshViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RefreshViewController.h; sourceTree = "<group>"; };
+		188FBFBF1EDC04E60089A3A8 /* RefreshViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RefreshViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +64,13 @@
 		1878AF951EDB1A7F00086425 /* WYLRefresh */ = {
 			isa = PBXGroup;
 			children = (
+				188FBFBA1EDBC3A80089A3A8 /* WYLRefresh */,
 				1878AF991EDB1A7F00086425 /* AppDelegate.h */,
 				1878AF9A1EDB1A7F00086425 /* AppDelegate.m */,
 				1878AF9C1EDB1A7F00086425 /* ViewController.h */,
 				1878AF9D1EDB1A7F00086425 /* ViewController.m */,
+				188FBFBE1EDC04E60089A3A8 /* RefreshViewController.h */,
+				188FBFBF1EDC04E60089A3A8 /* RefreshViewController.m */,
 				1878AF9F1EDB1A7F00086425 /* Main.storyboard */,
 				1878AFA21EDB1A7F00086425 /* Assets.xcassets */,
 				1878AFA41EDB1A7F00086425 /* LaunchScreen.storyboard */,
@@ -77,6 +86,15 @@
 				1878AF971EDB1A7F00086425 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		188FBFBA1EDBC3A80089A3A8 /* WYLRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				188FBFBB1EDBC4E70089A3A8 /* WYLRefreshBaseView.h */,
+				188FBFBC1EDBC4E70089A3A8 /* WYLRefreshBaseView.m */,
+			);
+			path = WYLRefresh;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +169,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				188FBFBD1EDBC4E70089A3A8 /* WYLRefreshBaseView.m in Sources */,
+				188FBFC01EDC04E60089A3A8 /* RefreshViewController.m in Sources */,
 				1878AF9E1EDB1A7F00086425 /* ViewController.m in Sources */,
 				1878AF9B1EDB1A7F00086425 /* AppDelegate.m in Sources */,
 				1878AF981EDB1A7F00086425 /* main.m in Sources */,
@@ -312,6 +332,7 @@
 				1878AFAC1EDB1A7F00086425 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
