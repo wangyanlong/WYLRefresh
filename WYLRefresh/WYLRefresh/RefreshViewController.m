@@ -5,7 +5,8 @@
 //  Created by wyl on 2017/5/29.
 //  Copyright © 2017年 wyl. All rights reserved.
 //
-
+#import "WYLRefreshStateHeader.h"
+#import "UIScrollView+WYLRefreshCategory.h"
 #import "RefreshViewController.h"
 
 @interface RefreshViewController ()<UITableViewDelegate,UITableViewDataSource>
@@ -19,6 +20,18 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    self.view.backgroundColor = [UIColor whiteColor];
+    
+    [self.view addSubview:self.tableView];
+    
+    WYLRefreshStateHeader *header = [WYLRefreshStateHeader headerWithRefreshingBlock:^{
+        
+        NSLog(@"header refreshing");
+        
+    }];
+    
+    self.tableView.wylHeader = header;
 }
 
 - (void)didReceiveMemoryWarning {
@@ -55,7 +68,7 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     
 //    [self.tableView.eocFooter endRefresh];
-//    [self.tableView.eocHeader endRefresh];
+    [self.tableView.wylHeader endRefresh];
     
 }
 

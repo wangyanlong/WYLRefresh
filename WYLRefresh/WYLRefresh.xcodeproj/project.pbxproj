@@ -19,6 +19,7 @@
 		188FBFC71EDC53600089A3A8 /* WYLRefreshBaseHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 188FBFC61EDC53600089A3A8 /* WYLRefreshBaseHeader.m */; };
 		188FBFCA1EDC61580089A3A8 /* UIScrollView+WYLExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = 188FBFC91EDC61580089A3A8 /* UIScrollView+WYLExtention.m */; };
 		188FBFCD1EDC62B30089A3A8 /* UIScrollView+WYLRefreshCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 188FBFCC1EDC62B30089A3A8 /* UIScrollView+WYLRefreshCategory.m */; };
+		188FBFD01EDC70C10089A3A8 /* WYLRefreshStateHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 188FBFCF1EDC70C10089A3A8 /* WYLRefreshStateHeader.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,8 @@
 		188FBFC91EDC61580089A3A8 /* UIScrollView+WYLExtention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+WYLExtention.m"; sourceTree = "<group>"; };
 		188FBFCB1EDC62B30089A3A8 /* UIScrollView+WYLRefreshCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+WYLRefreshCategory.h"; sourceTree = "<group>"; };
 		188FBFCC1EDC62B30089A3A8 /* UIScrollView+WYLRefreshCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+WYLRefreshCategory.m"; sourceTree = "<group>"; };
+		188FBFCE1EDC70C10089A3A8 /* WYLRefreshStateHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYLRefreshStateHeader.h; sourceTree = "<group>"; };
+		188FBFCF1EDC70C10089A3A8 /* WYLRefreshStateHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYLRefreshStateHeader.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +111,8 @@
 				188FBFBC1EDBC4E70089A3A8 /* WYLRefreshBaseView.m */,
 				188FBFC51EDC53600089A3A8 /* WYLRefreshBaseHeader.h */,
 				188FBFC61EDC53600089A3A8 /* WYLRefreshBaseHeader.m */,
+				188FBFCE1EDC70C10089A3A8 /* WYLRefreshStateHeader.h */,
+				188FBFCF1EDC70C10089A3A8 /* WYLRefreshStateHeader.m */,
 			);
 			path = WYLRefresh;
 			sourceTree = "<group>";
@@ -200,6 +205,7 @@
 				188FBFCD1EDC62B30089A3A8 /* UIScrollView+WYLRefreshCategory.m in Sources */,
 				188FBFC71EDC53600089A3A8 /* WYLRefreshBaseHeader.m in Sources */,
 				188FBFBD1EDBC4E70089A3A8 /* WYLRefreshBaseView.m in Sources */,
+				188FBFD01EDC70C10089A3A8 /* WYLRefreshStateHeader.m in Sources */,
 				188FBFC01EDC04E60089A3A8 /* RefreshViewController.m in Sources */,
 				188FBFCA1EDC61580089A3A8 /* UIScrollView+WYLExtention.m in Sources */,
 				1878AF9E1EDB1A7F00086425 /* ViewController.m in Sources */,

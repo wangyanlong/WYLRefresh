@@ -88,6 +88,9 @@
 
 - (void)endRefresh{
     
+    //把当前的时间存起来
+    [[NSUserDefaults standardUserDefaults]setObject:[NSDate date] forKey:@"lastUpdateDate"];
+    
     self.state = WYLRefreshStateIdle;
     
 }

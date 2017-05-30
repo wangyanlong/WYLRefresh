@@ -104,4 +104,31 @@
     
 }
 
+- (void)setState:(WYLRefreshState)state{
+    
+    [super setState:state];
+    
+    if (state == WYLRefreshStateRefreshing) {
+        
+        [UIView animateWithDuration:0.4f animations:^{
+           
+            self.scrollView.wyl_insetT = self.originalScrollInsets.top + self.wyl_h;
+            self.scrollView.wyl_offsetY = -(self.originalScrollInsets.top + self.wyl_h);
+            
+        }];
+        
+        [self beginRefresh];
+    
+    }else if (state == WYLRefreshStateIdle){
+        
+        [UIView animateWithDuration:0.4f animations:^{
+            
+            self.scrollView.contentInset = self.originalScrollInsets;
+            
+        }];
+        
+    }
+    
+}
+
 @end

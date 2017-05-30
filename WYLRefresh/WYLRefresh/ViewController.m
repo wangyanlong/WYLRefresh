@@ -23,7 +23,7 @@
     
     [tapBtn setTitle:@"WYLRefresh" forState:UIControlStateNormal];
     tapBtn.backgroundColor = [UIColor colorWithRed:(arc4random()%255/255.0) green:(arc4random()%255/255.0) blue:(arc4random()%255/255.0) alpha:1];
-    tapBtn.frame = CGRectMake(100.f, 100.f, 100.f, 50.f);
+    tapBtn.frame = CGRectMake(100.f, 100.f, 200.f, 50.f);
     [tapBtn addTarget:self action:@selector(btnAction) forControlEvents:UIControlEventTouchUpInside];
     
     [self.view addSubview:tapBtn];
