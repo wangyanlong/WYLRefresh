@@ -9,6 +9,7 @@
 #import "WYLRefreshStateHeader.h"
 #import "UIScrollView+WYLRefreshCategory.h"
 #import "RefreshViewController.h"
+#import "WYLRefreshGifHeader.h"
 
 @interface RefreshViewController ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -26,7 +27,7 @@
     
     [self.view addSubview:self.tableView];
     
-    WYLRefreshNormalHeader *header = [WYLRefreshNormalHeader headerWithRefreshingBlock:^{
+    WYLRefreshGifHeader *header = [WYLRefreshGifHeader headerWithRefreshingBlock:^{
         
         NSLog(@"header refreshing");
         

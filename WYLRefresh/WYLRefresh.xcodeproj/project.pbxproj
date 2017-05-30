@@ -23,6 +23,7 @@
 		188FBFD31EDD2B4B0089A3A8 /* WYLRefreshNormalHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 188FBFD21EDD2B4B0089A3A8 /* WYLRefreshNormalHeader.m */; };
 		188FBFD51EDD50DA0089A3A8 /* arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 188FBFD41EDD50DA0089A3A8 /* arrow@2x.png */; };
 		188FBFD81EDD53600089A3A8 /* UILabel+width.m in Sources */ = {isa = PBXBuildFile; fileRef = 188FBFD71EDD53600089A3A8 /* UILabel+width.m */; };
+		188FBFDE1EDD5F490089A3A8 /* WYLRefreshGifHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 188FBFDD1EDD5F490089A3A8 /* WYLRefreshGifHeader.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,6 +56,8 @@
 		188FBFD41EDD50DA0089A3A8 /* arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow@2x.png"; sourceTree = "<group>"; };
 		188FBFD61EDD53600089A3A8 /* UILabel+width.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+width.h"; sourceTree = "<group>"; };
 		188FBFD71EDD53600089A3A8 /* UILabel+width.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+width.m"; sourceTree = "<group>"; };
+		188FBFDC1EDD5F490089A3A8 /* WYLRefreshGifHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYLRefreshGifHeader.h; sourceTree = "<group>"; };
+		188FBFDD1EDD5F490089A3A8 /* WYLRefreshGifHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYLRefreshGifHeader.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +127,8 @@
 				188FBFCF1EDC70C10089A3A8 /* WYLRefreshStateHeader.m */,
 				188FBFD11EDD2B4B0089A3A8 /* WYLRefreshNormalHeader.h */,
 				188FBFD21EDD2B4B0089A3A8 /* WYLRefreshNormalHeader.m */,
+				188FBFDC1EDD5F490089A3A8 /* WYLRefreshGifHeader.h */,
+				188FBFDD1EDD5F490089A3A8 /* WYLRefreshGifHeader.m */,
 			);
 			path = WYLRefresh;
 			sourceTree = "<group>";
@@ -224,6 +229,7 @@
 				188FBFCA1EDC61580089A3A8 /* UIScrollView+WYLExtention.m in Sources */,
 				1878AF9E1EDB1A7F00086425 /* ViewController.m in Sources */,
 				188FBFD81EDD53600089A3A8 /* UILabel+width.m in Sources */,
+				188FBFDE1EDD5F490089A3A8 /* WYLRefreshGifHeader.m in Sources */,
 				1878AF9B1EDB1A7F00086425 /* AppDelegate.m in Sources */,
 				188FBFD31EDD2B4B0089A3A8 /* WYLRefreshNormalHeader.m in Sources */,
 				188FBFC41EDC43180089A3A8 /* UIView+WYLExtention.m in Sources */,

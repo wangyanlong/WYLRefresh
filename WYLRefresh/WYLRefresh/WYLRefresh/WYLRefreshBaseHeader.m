@@ -131,4 +131,10 @@
     
 }
 
+- (void)setPullingPercent:(CGFloat)pullingPercent {
+    
+    _pullingPercent = pullingPercent;
+    
+}
+
 @end
