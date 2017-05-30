@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "UIView+WYLExtention.h"
 #import "UIScrollView+WYLExtention.h"
+#import "UILabel+width.h"
 
 /**
  刷新的几种状态

@@ -5,6 +5,7 @@
 //  Created by wyl on 2017/5/29.
 //  Copyright © 2017年 wyl. All rights reserved.
 //
+#import "WYLRefreshNormalHeader.h"
 #import "WYLRefreshStateHeader.h"
 #import "UIScrollView+WYLRefreshCategory.h"
 #import "RefreshViewController.h"
@@ -25,7 +26,7 @@
     
     [self.view addSubview:self.tableView];
     
-    WYLRefreshStateHeader *header = [WYLRefreshStateHeader headerWithRefreshingBlock:^{
+    WYLRefreshNormalHeader *header = [WYLRefreshNormalHeader headerWithRefreshingBlock:^{
         
         NSLog(@"header refreshing");
         
