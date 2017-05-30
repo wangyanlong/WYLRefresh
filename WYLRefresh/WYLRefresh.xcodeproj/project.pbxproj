@@ -13,17 +13,17 @@
 		1878AFA11EDB1A7F00086425 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1878AF9F1EDB1A7F00086425 /* Main.storyboard */; };
 		1878AFA31EDB1A7F00086425 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1878AFA21EDB1A7F00086425 /* Assets.xcassets */; };
 		1878AFA61EDB1A7F00086425 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1878AFA41EDB1A7F00086425 /* LaunchScreen.storyboard */; };
-		188FBFBD1EDBC4E70089A3A8 /* WYLRefreshBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 188FBFBC1EDBC4E70089A3A8 /* WYLRefreshBaseView.m */; };
 		188FBFC01EDC04E60089A3A8 /* RefreshViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 188FBFBF1EDC04E60089A3A8 /* RefreshViewController.m */; };
 		188FBFC41EDC43180089A3A8 /* UIView+WYLExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = 188FBFC31EDC43180089A3A8 /* UIView+WYLExtention.m */; };
-		188FBFC71EDC53600089A3A8 /* WYLRefreshBaseHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 188FBFC61EDC53600089A3A8 /* WYLRefreshBaseHeader.m */; };
 		188FBFCA1EDC61580089A3A8 /* UIScrollView+WYLExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = 188FBFC91EDC61580089A3A8 /* UIScrollView+WYLExtention.m */; };
 		188FBFCD1EDC62B30089A3A8 /* UIScrollView+WYLRefreshCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 188FBFCC1EDC62B30089A3A8 /* UIScrollView+WYLRefreshCategory.m */; };
-		188FBFD01EDC70C10089A3A8 /* WYLRefreshStateHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 188FBFCF1EDC70C10089A3A8 /* WYLRefreshStateHeader.m */; };
-		188FBFD31EDD2B4B0089A3A8 /* WYLRefreshNormalHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 188FBFD21EDD2B4B0089A3A8 /* WYLRefreshNormalHeader.m */; };
 		188FBFD51EDD50DA0089A3A8 /* arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 188FBFD41EDD50DA0089A3A8 /* arrow@2x.png */; };
 		188FBFD81EDD53600089A3A8 /* UILabel+width.m in Sources */ = {isa = PBXBuildFile; fileRef = 188FBFD71EDD53600089A3A8 /* UILabel+width.m */; };
-		188FBFDE1EDD5F490089A3A8 /* WYLRefreshGifHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 188FBFDD1EDD5F490089A3A8 /* WYLRefreshGifHeader.m */; };
+		188FBFEA1EDD66E30089A3A8 /* WYLRefreshBaseHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 188FBFE11EDD66E30089A3A8 /* WYLRefreshBaseHeader.m */; };
+		188FBFEB1EDD66E30089A3A8 /* WYLRefreshBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 188FBFE31EDD66E30089A3A8 /* WYLRefreshBaseView.m */; };
+		188FBFEC1EDD66E30089A3A8 /* WYLRefreshGifHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 188FBFE51EDD66E30089A3A8 /* WYLRefreshGifHeader.m */; };
+		188FBFED1EDD66E30089A3A8 /* WYLRefreshNormalHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 188FBFE71EDD66E30089A3A8 /* WYLRefreshNormalHeader.m */; };
+		188FBFEE1EDD66E30089A3A8 /* WYLRefreshStateHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 188FBFE91EDD66E30089A3A8 /* WYLRefreshStateHeader.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,27 +37,27 @@
 		1878AFA21EDB1A7F00086425 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1878AFA51EDB1A7F00086425 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1878AFA71EDB1A7F00086425 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		188FBFBB1EDBC4E70089A3A8 /* WYLRefreshBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYLRefreshBaseView.h; sourceTree = "<group>"; };
-		188FBFBC1EDBC4E70089A3A8 /* WYLRefreshBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYLRefreshBaseView.m; sourceTree = "<group>"; };
 		188FBFBE1EDC04E60089A3A8 /* RefreshViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RefreshViewController.h; sourceTree = "<group>"; };
 		188FBFBF1EDC04E60089A3A8 /* RefreshViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RefreshViewController.m; sourceTree = "<group>"; };
 		188FBFC21EDC43180089A3A8 /* UIView+WYLExtention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WYLExtention.h"; sourceTree = "<group>"; };
 		188FBFC31EDC43180089A3A8 /* UIView+WYLExtention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WYLExtention.m"; sourceTree = "<group>"; };
-		188FBFC51EDC53600089A3A8 /* WYLRefreshBaseHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYLRefreshBaseHeader.h; sourceTree = "<group>"; };
-		188FBFC61EDC53600089A3A8 /* WYLRefreshBaseHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYLRefreshBaseHeader.m; sourceTree = "<group>"; };
 		188FBFC81EDC61580089A3A8 /* UIScrollView+WYLExtention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+WYLExtention.h"; sourceTree = "<group>"; };
 		188FBFC91EDC61580089A3A8 /* UIScrollView+WYLExtention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+WYLExtention.m"; sourceTree = "<group>"; };
 		188FBFCB1EDC62B30089A3A8 /* UIScrollView+WYLRefreshCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+WYLRefreshCategory.h"; sourceTree = "<group>"; };
 		188FBFCC1EDC62B30089A3A8 /* UIScrollView+WYLRefreshCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+WYLRefreshCategory.m"; sourceTree = "<group>"; };
-		188FBFCE1EDC70C10089A3A8 /* WYLRefreshStateHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYLRefreshStateHeader.h; sourceTree = "<group>"; };
-		188FBFCF1EDC70C10089A3A8 /* WYLRefreshStateHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYLRefreshStateHeader.m; sourceTree = "<group>"; };
-		188FBFD11EDD2B4B0089A3A8 /* WYLRefreshNormalHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYLRefreshNormalHeader.h; sourceTree = "<group>"; };
-		188FBFD21EDD2B4B0089A3A8 /* WYLRefreshNormalHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYLRefreshNormalHeader.m; sourceTree = "<group>"; };
 		188FBFD41EDD50DA0089A3A8 /* arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow@2x.png"; sourceTree = "<group>"; };
 		188FBFD61EDD53600089A3A8 /* UILabel+width.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+width.h"; sourceTree = "<group>"; };
 		188FBFD71EDD53600089A3A8 /* UILabel+width.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+width.m"; sourceTree = "<group>"; };
-		188FBFDC1EDD5F490089A3A8 /* WYLRefreshGifHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYLRefreshGifHeader.h; sourceTree = "<group>"; };
-		188FBFDD1EDD5F490089A3A8 /* WYLRefreshGifHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYLRefreshGifHeader.m; sourceTree = "<group>"; };
+		188FBFE01EDD66E30089A3A8 /* WYLRefreshBaseHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYLRefreshBaseHeader.h; sourceTree = "<group>"; };
+		188FBFE11EDD66E30089A3A8 /* WYLRefreshBaseHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYLRefreshBaseHeader.m; sourceTree = "<group>"; };
+		188FBFE21EDD66E30089A3A8 /* WYLRefreshBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYLRefreshBaseView.h; sourceTree = "<group>"; };
+		188FBFE31EDD66E30089A3A8 /* WYLRefreshBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYLRefreshBaseView.m; sourceTree = "<group>"; };
+		188FBFE41EDD66E30089A3A8 /* WYLRefreshGifHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYLRefreshGifHeader.h; sourceTree = "<group>"; };
+		188FBFE51EDD66E30089A3A8 /* WYLRefreshGifHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYLRefreshGifHeader.m; sourceTree = "<group>"; };
+		188FBFE61EDD66E30089A3A8 /* WYLRefreshNormalHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYLRefreshNormalHeader.h; sourceTree = "<group>"; };
+		188FBFE71EDD66E30089A3A8 /* WYLRefreshNormalHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYLRefreshNormalHeader.m; sourceTree = "<group>"; };
+		188FBFE81EDD66E30089A3A8 /* WYLRefreshStateHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYLRefreshStateHeader.h; sourceTree = "<group>"; };
+		188FBFE91EDD66E30089A3A8 /* WYLRefreshStateHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYLRefreshStateHeader.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,18 +117,9 @@
 		188FBFBA1EDBC3A80089A3A8 /* WYLRefresh */ = {
 			isa = PBXGroup;
 			children = (
+				188FBFDF1EDD66E30089A3A8 /* WYLRefreshHeader */,
 				188FBFD41EDD50DA0089A3A8 /* arrow@2x.png */,
 				188FBFC11EDC43100089A3A8 /* Category */,
-				188FBFBB1EDBC4E70089A3A8 /* WYLRefreshBaseView.h */,
-				188FBFBC1EDBC4E70089A3A8 /* WYLRefreshBaseView.m */,
-				188FBFC51EDC53600089A3A8 /* WYLRefreshBaseHeader.h */,
-				188FBFC61EDC53600089A3A8 /* WYLRefreshBaseHeader.m */,
-				188FBFCE1EDC70C10089A3A8 /* WYLRefreshStateHeader.h */,
-				188FBFCF1EDC70C10089A3A8 /* WYLRefreshStateHeader.m */,
-				188FBFD11EDD2B4B0089A3A8 /* WYLRefreshNormalHeader.h */,
-				188FBFD21EDD2B4B0089A3A8 /* WYLRefreshNormalHeader.m */,
-				188FBFDC1EDD5F490089A3A8 /* WYLRefreshGifHeader.h */,
-				188FBFDD1EDD5F490089A3A8 /* WYLRefreshGifHeader.m */,
 			);
 			path = WYLRefresh;
 			sourceTree = "<group>";
@@ -146,6 +137,23 @@
 				188FBFD71EDD53600089A3A8 /* UILabel+width.m */,
 			);
 			path = Category;
+			sourceTree = "<group>";
+		};
+		188FBFDF1EDD66E30089A3A8 /* WYLRefreshHeader */ = {
+			isa = PBXGroup;
+			children = (
+				188FBFE01EDD66E30089A3A8 /* WYLRefreshBaseHeader.h */,
+				188FBFE11EDD66E30089A3A8 /* WYLRefreshBaseHeader.m */,
+				188FBFE21EDD66E30089A3A8 /* WYLRefreshBaseView.h */,
+				188FBFE31EDD66E30089A3A8 /* WYLRefreshBaseView.m */,
+				188FBFE41EDD66E30089A3A8 /* WYLRefreshGifHeader.h */,
+				188FBFE51EDD66E30089A3A8 /* WYLRefreshGifHeader.m */,
+				188FBFE61EDD66E30089A3A8 /* WYLRefreshNormalHeader.h */,
+				188FBFE71EDD66E30089A3A8 /* WYLRefreshNormalHeader.m */,
+				188FBFE81EDD66E30089A3A8 /* WYLRefreshStateHeader.h */,
+				188FBFE91EDD66E30089A3A8 /* WYLRefreshStateHeader.m */,
+			);
+			path = WYLRefreshHeader;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,17 +229,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				188FBFED1EDD66E30089A3A8 /* WYLRefreshNormalHeader.m in Sources */,
+				188FBFEB1EDD66E30089A3A8 /* WYLRefreshBaseView.m in Sources */,
+				188FBFEA1EDD66E30089A3A8 /* WYLRefreshBaseHeader.m in Sources */,
 				188FBFCD1EDC62B30089A3A8 /* UIScrollView+WYLRefreshCategory.m in Sources */,
-				188FBFC71EDC53600089A3A8 /* WYLRefreshBaseHeader.m in Sources */,
-				188FBFBD1EDBC4E70089A3A8 /* WYLRefreshBaseView.m in Sources */,
-				188FBFD01EDC70C10089A3A8 /* WYLRefreshStateHeader.m in Sources */,
 				188FBFC01EDC04E60089A3A8 /* RefreshViewController.m in Sources */,
 				188FBFCA1EDC61580089A3A8 /* UIScrollView+WYLExtention.m in Sources */,
 				1878AF9E1EDB1A7F00086425 /* ViewController.m in Sources */,
 				188FBFD81EDD53600089A3A8 /* UILabel+width.m in Sources */,
-				188FBFDE1EDD5F490089A3A8 /* WYLRefreshGifHeader.m in Sources */,
+				188FBFEE1EDD66E30089A3A8 /* WYLRefreshStateHeader.m in Sources */,
 				1878AF9B1EDB1A7F00086425 /* AppDelegate.m in Sources */,
-				188FBFD31EDD2B4B0089A3A8 /* WYLRefreshNormalHeader.m in Sources */,
+				188FBFEC1EDD66E30089A3A8 /* WYLRefreshGifHeader.m in Sources */,
 				188FBFC41EDC43180089A3A8 /* UIView+WYLExtention.m in Sources */,
 				1878AF981EDB1A7F00086425 /* main.m in Sources */,
 			);
