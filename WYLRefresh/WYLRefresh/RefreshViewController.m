@@ -11,11 +11,15 @@
 #import "RefreshViewController.h"
 #import "WYLRefreshGifHeader.h"
 
+#import "WYLRefreshAutoStateFooter.h"
+
 @interface RefreshViewController ()<UITableViewDelegate,UITableViewDataSource>
 
 @property (nonatomic, strong)UITableView *tableView;
 
 @end
+
+static int num = 20;
 
 @implementation RefreshViewController
 
@@ -27,13 +31,22 @@
     
     [self.view addSubview:self.tableView];
     
-    WYLRefreshGifHeader *header = [WYLRefreshGifHeader headerWithRefreshingBlock:^{
+//    WYLRefreshGifHeader *header = [WYLRefreshGifHeader headerWithRefreshingBlock:^{
+//        
+//        NSLog(@"header refreshing");
+//        
+//    }];
+//    
+//    self.tableView.wylHeader = header;
+    
+    self.tableView.wylFooter = [WYLRefreshAutoStateFooter footerWithRefreshBlock:^{
         
-        NSLog(@"header refreshing");
+        NSLog(@"footer refreshing");
+        num += 10;
+        [self.tableView reloadData];
+        [self.tableView.wylFooter endRefresh];
         
     }];
-    
-    self.tableView.wylHeader = header;
 }
 
 - (void)didReceiveMemoryWarning {
@@ -49,7 +62,7 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return 20;
+    return num;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath

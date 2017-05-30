@@ -26,6 +26,7 @@
 		188FBFF51EDD8A280089A3A8 /* WYLRefreshBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 188FBFF41EDD8A280089A3A8 /* WYLRefreshBaseView.m */; };
 		188FBFF81EDD8A450089A3A8 /* WYLRefreshBaseFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 188FBFF71EDD8A450089A3A8 /* WYLRefreshBaseFooter.m */; };
 		188FC00E1EDD957F0089A3A8 /* WYLRefreshAutoFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 188FC00D1EDD957F0089A3A8 /* WYLRefreshAutoFooter.m */; };
+		188FC0341EDDC7670089A3A8 /* WYLRefreshAutoStateFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 188FC0331EDDC7670089A3A8 /* WYLRefreshAutoStateFooter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,6 +65,8 @@
 		188FBFF71EDD8A450089A3A8 /* WYLRefreshBaseFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYLRefreshBaseFooter.m; sourceTree = "<group>"; };
 		188FC00C1EDD957F0089A3A8 /* WYLRefreshAutoFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYLRefreshAutoFooter.h; sourceTree = "<group>"; };
 		188FC00D1EDD957F0089A3A8 /* WYLRefreshAutoFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYLRefreshAutoFooter.m; sourceTree = "<group>"; };
+		188FC0321EDDC7670089A3A8 /* WYLRefreshAutoStateFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYLRefreshAutoStateFooter.h; sourceTree = "<group>"; };
+		188FC0331EDDC7670089A3A8 /* WYLRefreshAutoStateFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYLRefreshAutoStateFooter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,6 +173,8 @@
 				188FBFF71EDD8A450089A3A8 /* WYLRefreshBaseFooter.m */,
 				188FC00C1EDD957F0089A3A8 /* WYLRefreshAutoFooter.h */,
 				188FC00D1EDD957F0089A3A8 /* WYLRefreshAutoFooter.m */,
+				188FC0321EDDC7670089A3A8 /* WYLRefreshAutoStateFooter.h */,
+				188FC0331EDDC7670089A3A8 /* WYLRefreshAutoStateFooter.m */,
 			);
 			path = WYLRefreshFooter;
 			sourceTree = "<group>";
@@ -257,6 +262,7 @@
 				1878AF9E1EDB1A7F00086425 /* ViewController.m in Sources */,
 				188FBFD81EDD53600089A3A8 /* UILabel+width.m in Sources */,
 				188FC00E1EDD957F0089A3A8 /* WYLRefreshAutoFooter.m in Sources */,
+				188FC0341EDDC7670089A3A8 /* WYLRefreshAutoStateFooter.m in Sources */,
 				188FBFEE1EDD66E30089A3A8 /* WYLRefreshStateHeader.m in Sources */,
 				1878AF9B1EDB1A7F00086425 /* AppDelegate.m in Sources */,
 				188FBFEC1EDD66E30089A3A8 /* WYLRefreshGifHeader.m in Sources */,

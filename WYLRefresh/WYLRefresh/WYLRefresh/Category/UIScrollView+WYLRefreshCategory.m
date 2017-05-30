@@ -34,4 +34,24 @@ const static char WYLFooterKey = 'F';
     
 }
 
+#pragma mark - footer
+- (void)setWylFooter:(WYLRefreshBaseFooter *)wylFooter
+{
+    if (wylFooter != self.wylFooter) {
+        // 删除旧的，添加新的
+        [self.wylFooter removeFromSuperview];
+        [self insertSubview:wylFooter atIndex:0];
+        
+        
+        objc_setAssociatedObject(self, &WYLFooterKey,
+                                 wylFooter, OBJC_ASSOCIATION_ASSIGN);
+    }
+}
+
+- (WYLRefreshBaseFooter *)wylFooter {
+    
+    return objc_getAssociatedObject(self, &WYLFooterKey);
+    
+}
+
 @end
