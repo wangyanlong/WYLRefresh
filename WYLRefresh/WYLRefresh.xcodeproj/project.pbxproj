@@ -20,10 +20,12 @@
 		188FBFD51EDD50DA0089A3A8 /* arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 188FBFD41EDD50DA0089A3A8 /* arrow@2x.png */; };
 		188FBFD81EDD53600089A3A8 /* UILabel+width.m in Sources */ = {isa = PBXBuildFile; fileRef = 188FBFD71EDD53600089A3A8 /* UILabel+width.m */; };
 		188FBFEA1EDD66E30089A3A8 /* WYLRefreshBaseHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 188FBFE11EDD66E30089A3A8 /* WYLRefreshBaseHeader.m */; };
-		188FBFEB1EDD66E30089A3A8 /* WYLRefreshBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 188FBFE31EDD66E30089A3A8 /* WYLRefreshBaseView.m */; };
 		188FBFEC1EDD66E30089A3A8 /* WYLRefreshGifHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 188FBFE51EDD66E30089A3A8 /* WYLRefreshGifHeader.m */; };
 		188FBFED1EDD66E30089A3A8 /* WYLRefreshNormalHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 188FBFE71EDD66E30089A3A8 /* WYLRefreshNormalHeader.m */; };
 		188FBFEE1EDD66E30089A3A8 /* WYLRefreshStateHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 188FBFE91EDD66E30089A3A8 /* WYLRefreshStateHeader.m */; };
+		188FBFF51EDD8A280089A3A8 /* WYLRefreshBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 188FBFF41EDD8A280089A3A8 /* WYLRefreshBaseView.m */; };
+		188FBFF81EDD8A450089A3A8 /* WYLRefreshBaseFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 188FBFF71EDD8A450089A3A8 /* WYLRefreshBaseFooter.m */; };
+		188FC00E1EDD957F0089A3A8 /* WYLRefreshAutoFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 188FC00D1EDD957F0089A3A8 /* WYLRefreshAutoFooter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,14 +52,18 @@
 		188FBFD71EDD53600089A3A8 /* UILabel+width.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+width.m"; sourceTree = "<group>"; };
 		188FBFE01EDD66E30089A3A8 /* WYLRefreshBaseHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYLRefreshBaseHeader.h; sourceTree = "<group>"; };
 		188FBFE11EDD66E30089A3A8 /* WYLRefreshBaseHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYLRefreshBaseHeader.m; sourceTree = "<group>"; };
-		188FBFE21EDD66E30089A3A8 /* WYLRefreshBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYLRefreshBaseView.h; sourceTree = "<group>"; };
-		188FBFE31EDD66E30089A3A8 /* WYLRefreshBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYLRefreshBaseView.m; sourceTree = "<group>"; };
 		188FBFE41EDD66E30089A3A8 /* WYLRefreshGifHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYLRefreshGifHeader.h; sourceTree = "<group>"; };
 		188FBFE51EDD66E30089A3A8 /* WYLRefreshGifHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYLRefreshGifHeader.m; sourceTree = "<group>"; };
 		188FBFE61EDD66E30089A3A8 /* WYLRefreshNormalHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYLRefreshNormalHeader.h; sourceTree = "<group>"; };
 		188FBFE71EDD66E30089A3A8 /* WYLRefreshNormalHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYLRefreshNormalHeader.m; sourceTree = "<group>"; };
 		188FBFE81EDD66E30089A3A8 /* WYLRefreshStateHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYLRefreshStateHeader.h; sourceTree = "<group>"; };
 		188FBFE91EDD66E30089A3A8 /* WYLRefreshStateHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYLRefreshStateHeader.m; sourceTree = "<group>"; };
+		188FBFF31EDD8A280089A3A8 /* WYLRefreshBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYLRefreshBaseView.h; sourceTree = "<group>"; };
+		188FBFF41EDD8A280089A3A8 /* WYLRefreshBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYLRefreshBaseView.m; sourceTree = "<group>"; };
+		188FBFF61EDD8A450089A3A8 /* WYLRefreshBaseFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYLRefreshBaseFooter.h; sourceTree = "<group>"; };
+		188FBFF71EDD8A450089A3A8 /* WYLRefreshBaseFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYLRefreshBaseFooter.m; sourceTree = "<group>"; };
+		188FC00C1EDD957F0089A3A8 /* WYLRefreshAutoFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYLRefreshAutoFooter.h; sourceTree = "<group>"; };
+		188FC00D1EDD957F0089A3A8 /* WYLRefreshAutoFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYLRefreshAutoFooter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,8 +123,11 @@
 		188FBFBA1EDBC3A80089A3A8 /* WYLRefresh */ = {
 			isa = PBXGroup;
 			children = (
-				188FBFDF1EDD66E30089A3A8 /* WYLRefreshHeader */,
+				188FBFF31EDD8A280089A3A8 /* WYLRefreshBaseView.h */,
+				188FBFF41EDD8A280089A3A8 /* WYLRefreshBaseView.m */,
 				188FBFD41EDD50DA0089A3A8 /* arrow@2x.png */,
+				188FBFEF1EDD89D60089A3A8 /* WYLRefreshFooter */,
+				188FBFDF1EDD66E30089A3A8 /* WYLRefreshHeader */,
 				188FBFC11EDC43100089A3A8 /* Category */,
 			);
 			path = WYLRefresh;
@@ -144,8 +153,6 @@
 			children = (
 				188FBFE01EDD66E30089A3A8 /* WYLRefreshBaseHeader.h */,
 				188FBFE11EDD66E30089A3A8 /* WYLRefreshBaseHeader.m */,
-				188FBFE21EDD66E30089A3A8 /* WYLRefreshBaseView.h */,
-				188FBFE31EDD66E30089A3A8 /* WYLRefreshBaseView.m */,
 				188FBFE41EDD66E30089A3A8 /* WYLRefreshGifHeader.h */,
 				188FBFE51EDD66E30089A3A8 /* WYLRefreshGifHeader.m */,
 				188FBFE61EDD66E30089A3A8 /* WYLRefreshNormalHeader.h */,
@@ -154,6 +161,17 @@
 				188FBFE91EDD66E30089A3A8 /* WYLRefreshStateHeader.m */,
 			);
 			path = WYLRefreshHeader;
+			sourceTree = "<group>";
+		};
+		188FBFEF1EDD89D60089A3A8 /* WYLRefreshFooter */ = {
+			isa = PBXGroup;
+			children = (
+				188FBFF61EDD8A450089A3A8 /* WYLRefreshBaseFooter.h */,
+				188FBFF71EDD8A450089A3A8 /* WYLRefreshBaseFooter.m */,
+				188FC00C1EDD957F0089A3A8 /* WYLRefreshAutoFooter.h */,
+				188FC00D1EDD957F0089A3A8 /* WYLRefreshAutoFooter.m */,
+			);
+			path = WYLRefreshFooter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,13 +248,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				188FBFED1EDD66E30089A3A8 /* WYLRefreshNormalHeader.m in Sources */,
-				188FBFEB1EDD66E30089A3A8 /* WYLRefreshBaseView.m in Sources */,
 				188FBFEA1EDD66E30089A3A8 /* WYLRefreshBaseHeader.m in Sources */,
+				188FBFF51EDD8A280089A3A8 /* WYLRefreshBaseView.m in Sources */,
 				188FBFCD1EDC62B30089A3A8 /* UIScrollView+WYLRefreshCategory.m in Sources */,
+				188FBFF81EDD8A450089A3A8 /* WYLRefreshBaseFooter.m in Sources */,
 				188FBFC01EDC04E60089A3A8 /* RefreshViewController.m in Sources */,
 				188FBFCA1EDC61580089A3A8 /* UIScrollView+WYLExtention.m in Sources */,
 				1878AF9E1EDB1A7F00086425 /* ViewController.m in Sources */,
 				188FBFD81EDD53600089A3A8 /* UILabel+width.m in Sources */,
+				188FC00E1EDD957F0089A3A8 /* WYLRefreshAutoFooter.m in Sources */,
 				188FBFEE1EDD66E30089A3A8 /* WYLRefreshStateHeader.m in Sources */,
 				1878AF9B1EDB1A7F00086425 /* AppDelegate.m in Sources */,
 				188FBFEC1EDD66E30089A3A8 /* WYLRefreshGifHeader.m in Sources */,
