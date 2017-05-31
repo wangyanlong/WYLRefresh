@@ -10,7 +10,7 @@
 #import "UIScrollView+WYLRefreshCategory.h"
 #import "RefreshViewController.h"
 #import "WYLRefreshGifHeader.h"
-
+#import "WYLRefreshBackFooter.h"
 #import "WYLRefreshAutoStateFooter.h"
 
 @interface RefreshViewController ()<UITableViewDelegate,UITableViewDataSource>
@@ -39,7 +39,7 @@ static int num = 20;
 //    
 //    self.tableView.wylHeader = header;
     
-    self.tableView.wylFooter = [WYLRefreshAutoStateFooter footerWithRefreshBlock:^{
+    self.tableView.wylFooter = [WYLRefreshBackFooter footerWithRefreshBlock:^{
         
         NSLog(@"footer refreshing");
         num += 10;
