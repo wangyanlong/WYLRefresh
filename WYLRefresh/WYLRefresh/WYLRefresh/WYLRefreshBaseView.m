@@ -24,6 +24,12 @@
     
 }
 
+- (void)dealloc{
+    
+    
+
+}
+
 - (void)prepare{
     
     self.backgroundColor = [UIColor colorWithRed:(arc4random()%255/255.0) green:(arc4random()%255/255.0) blue:(arc4random()%255/255.0) alpha:1];
@@ -60,6 +66,11 @@
         
     }
     
+    if (!newSuperview) {
+            [_scrollView removeObserver:self forKeyPath:@"contentOffset"];
+            [_scrollView removeObserver:self forKeyPath:@"contentSize"];
+            [_scrollView.panGestureRecognizer  removeObserver:self forKeyPath:@"state"];
+    }
 }
 
 - (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary<NSKeyValueChangeKey,id> *)change context:(void *)context {

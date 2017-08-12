@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1805375A1F3DA7820003B241 /* WYLRefreshStateBackFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 180537591F3DA7820003B241 /* WYLRefreshStateBackFooter.m */; };
 		1878AF981EDB1A7F00086425 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1878AF971EDB1A7F00086425 /* main.m */; };
 		1878AF9B1EDB1A7F00086425 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1878AF9A1EDB1A7F00086425 /* AppDelegate.m */; };
 		1878AF9E1EDB1A7F00086425 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1878AF9D1EDB1A7F00086425 /* ViewController.m */; };
@@ -31,6 +32,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		180537581F3DA7820003B241 /* WYLRefreshStateBackFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYLRefreshStateBackFooter.h; sourceTree = "<group>"; };
+		180537591F3DA7820003B241 /* WYLRefreshStateBackFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYLRefreshStateBackFooter.m; sourceTree = "<group>"; };
 		1878AF931EDB1A7F00086425 /* WYLRefresh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WYLRefresh.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1878AF971EDB1A7F00086425 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1878AF991EDB1A7F00086425 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -180,6 +183,8 @@
 				188FC0331EDDC7670089A3A8 /* WYLRefreshAutoStateFooter.m */,
 				188FC03E1EDEEF110089A3A8 /* WYLRefreshBackFooter.h */,
 				188FC03F1EDEEF110089A3A8 /* WYLRefreshBackFooter.m */,
+				180537581F3DA7820003B241 /* WYLRefreshStateBackFooter.h */,
+				180537591F3DA7820003B241 /* WYLRefreshStateBackFooter.m */,
 			);
 			path = WYLRefreshFooter;
 			sourceTree = "<group>";
@@ -259,6 +264,7 @@
 			files = (
 				188FBFED1EDD66E30089A3A8 /* WYLRefreshNormalHeader.m in Sources */,
 				188FBFEA1EDD66E30089A3A8 /* WYLRefreshBaseHeader.m in Sources */,
+				1805375A1F3DA7820003B241 /* WYLRefreshStateBackFooter.m in Sources */,
 				188FBFF51EDD8A280089A3A8 /* WYLRefreshBaseView.m in Sources */,
 				188FBFCD1EDC62B30089A3A8 /* UIScrollView+WYLRefreshCategory.m in Sources */,
 				188FBFF81EDD8A450089A3A8 /* WYLRefreshBaseFooter.m in Sources */,

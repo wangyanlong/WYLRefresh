@@ -1,20 +1,20 @@
 //
-//  WYLRefreshStateHeader.m
+//  WYLRefreshStateBackFooter.m
 //  WYLRefresh
 //
-//  Created by wyl on 2017/5/29.
+//  Created by wyl on 2017/8/11.
 //  Copyright © 2017年 wyl. All rights reserved.
 //
 
-#import "WYLRefreshStateHeader.h"
+#import "WYLRefreshStateBackFooter.h"
 
-@interface WYLRefreshStateHeader ()
+@interface WYLRefreshStateBackFooter ()
 
 @property (nonatomic, strong) NSMutableDictionary *stateTitlesDict;
 
 @end
 
-@implementation WYLRefreshStateHeader
+@implementation WYLRefreshStateBackFooter
 
 - (void)prepare{
     
@@ -41,7 +41,7 @@
     [super resetSubviews];
     
     self.stateLabel.frame = ({
-    
+        
         CGRect frame = self.bounds;
         frame.size.height = self.wyl_h/2;
         frame;
@@ -158,5 +158,6 @@
     return _stateTitlesDict;
     
 }
+
 
 @end

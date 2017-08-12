@@ -94,7 +94,7 @@
         
             self.state = WYLRefreshStateRefreshing;
             
-        }else if (_pullingPercent < 1){//如果不是松开既刷新的状态,那么肯定是闲置状态,也就是没到偏移量或者自己又滑动回上沿了,那么充值一下透明度
+        }else if (_pullingPercent < 1){//如果不是松开既刷新的状态,那么肯定是闲置状态,也就是没到偏移量或者自己又滑动回上沿了,那么重置一下透明度
         
             self.alpha = _pullingPercent;
             

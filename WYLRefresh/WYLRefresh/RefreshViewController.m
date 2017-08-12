@@ -12,6 +12,8 @@
 #import "WYLRefreshGifHeader.h"
 #import "WYLRefreshBackFooter.h"
 #import "WYLRefreshAutoStateFooter.h"
+#import "WYLRefreshStateBackFooter.h"
+#define WeakObj(o) try{}@finally{} __weak typeof(o) o##Weak = o;
 
 @interface RefreshViewController ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -23,6 +25,13 @@ static int num = 20;
 
 @implementation RefreshViewController
 
+- (void)dealloc
+{
+    [self.tableView.wylFooter removeFromSuperview];
+    [self.tableView.wylHeader removeFromSuperview];
+    NSLog(@"1234");
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
@@ -31,20 +40,23 @@ static int num = 20;
     
     [self.view addSubview:self.tableView];
     
-//    WYLRefreshGifHeader *header = [WYLRefreshGifHeader headerWithRefreshingBlock:^{
-//        
-//        NSLog(@"header refreshing");
-//        
-//    }];
-//    
-//    self.tableView.wylHeader = header;
+    @WeakObj(self)
     
-    self.tableView.wylFooter = [WYLRefreshBackFooter footerWithRefreshBlock:^{
+    WYLRefreshStateHeader *header = [WYLRefreshStateHeader headerWithRefreshingBlock:^{
+        
+        NSLog(@"header refreshing");
+        
+    }];
+    
+    self.tableView.wylHeader = header;
+    
+    self.tableView.wylFooter = [WYLRefreshStateBackFooter footerWithRefreshBlock:^{
         
         NSLog(@"footer refreshing");
-        num += 10;
-        [self.tableView reloadData];
-        [self.tableView.wylFooter endRefresh];
+//        num += 10;
+//        sleep(2);
+//        [selfWeak.tableView reloadData];
+//        [selfWeak.tableView.wylFooter endRefresh];
         
     }];
 }
