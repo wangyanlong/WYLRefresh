@@ -27,7 +27,7 @@
     [self setTitle:@"下拉即将购买新的章节哦~" forState:WYLRefreshStateIdle];
     [self setTitle:@"松开就会购买啦" forState:WYLRefreshStatePulling];
     [self setTitle:@"正在购买..." forState:WYLRefreshStateRefreshing];
-    
+
 }
 
 - (void)setTitle:(NSString *)title forState:(WYLRefreshState)state{

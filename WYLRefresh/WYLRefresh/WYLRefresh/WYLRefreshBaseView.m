@@ -25,15 +25,13 @@
 }
 
 - (void)dealloc{
-    
-    
-
+    NSLog(@"%@--%@",NSStringFromClass([self class]),NSStringFromSelector(_cmd));
 }
 
 - (void)prepare{
     
     self.backgroundColor = [UIColor colorWithRed:(arc4random()%255/255.0) green:(arc4random()%255/255.0) blue:(arc4random()%255/255.0) alpha:1];
-    self.autoresizingMask = UIViewAutoresizingFlexibleWidth;//self的宽度会随着superView的宽度改变
+    self.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;//self的宽度会随着superView的宽度改变
     
 }
 
@@ -55,9 +53,6 @@
         self.scrollView = (UIScrollView *)newSuperview;
         self.originalScrollInsets = self.scrollView.contentInset;
         
-        self.wyl_x = 0.0f;
-        self.wyl_w = self.scrollView.wyl_w;
-        
         [_scrollView addObserver:self forKeyPath:@"contentOffset" options:NSKeyValueObservingOptionNew|NSKeyValueObservingOptionOld context:nil];
         
         [_scrollView addObserver:self forKeyPath:@"contentSize" options:NSKeyValueObservingOptionNew|NSKeyValueObservingOptionOld context:nil];
@@ -67,10 +62,11 @@
     }
     
     if (!newSuperview) {
-            [_scrollView removeObserver:self forKeyPath:@"contentOffset"];
-            [_scrollView removeObserver:self forKeyPath:@"contentSize"];
-            [_scrollView.panGestureRecognizer  removeObserver:self forKeyPath:@"state"];
+        [_scrollView removeObserver:self forKeyPath:@"contentOffset"];
+        [_scrollView removeObserver:self forKeyPath:@"contentSize"];
+        [_scrollView.panGestureRecognizer  removeObserver:self forKeyPath:@"state"];
     }
+    
 }
 
 - (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary<NSKeyValueChangeKey,id> *)change context:(void *)context {

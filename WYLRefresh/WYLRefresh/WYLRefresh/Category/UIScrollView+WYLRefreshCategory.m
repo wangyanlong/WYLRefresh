@@ -13,6 +13,8 @@
 
 const static char WYLHeaderKey = 'H';
 const static char WYLFooterKey = 'F';
+const static char WYLRightKey = 'R';
+const static char WYLLeftKey = 'L';
 
 - (void)setWylHeader:(WYLRefreshBaseHeader *)wylHeader {
     
@@ -52,6 +54,43 @@ const static char WYLFooterKey = 'F';
     
     return objc_getAssociatedObject(self, &WYLFooterKey);
     
+}
+
+#pragma mark - right
+- (void)setWylRight:(WYLRefreshBaseRight *)wylRight
+{
+    if (wylRight != self.wylRight) {
+        // 删除旧的，添加新的
+        [self.wylRight removeFromSuperview];
+        [self insertSubview:wylRight atIndex:0];
+        
+        
+        objc_setAssociatedObject(self, &WYLRightKey,
+                                 wylRight, OBJC_ASSOCIATION_ASSIGN);
+    }
+}
+
+-(WYLRefreshBaseRight *)wylRight{
+    return objc_getAssociatedObject(self, &WYLRightKey);
+}
+
+#pragma mark - left
+- (void)setWylLeft:(WYLRefreshBaseLeft *)wylLeft {
+    
+    if (wylLeft != self.wylLeft) {
+        
+        //删除旧的，添加新的
+        [self.wylLeft removeFromSuperview];
+        [self insertSubview:wylLeft atIndex:0];
+        
+        objc_setAssociatedObject(self, &WYLLeftKey, wylLeft, OBJC_ASSOCIATION_ASSIGN);
+        
+    }
+    
+}
+
+- (WYLRefreshBaseLeft *)wylLeft{
+    return objc_getAssociatedObject(self, &WYLLeftKey);
 }
 
 @end

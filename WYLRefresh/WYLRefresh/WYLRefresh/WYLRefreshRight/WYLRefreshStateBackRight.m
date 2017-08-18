@@ -1,20 +1,20 @@
 //
-//  WYLRefreshStateBackFooter.m
-//  WYLRefresh
+//  WYLRefreshStateBackRight.m
+//  WYLComic
 //
-//  Created by wyl on 2017/8/11.
+//  Created by wyl on 2017/8/18.
 //  Copyright © 2017年 wyl. All rights reserved.
 //
 
-#import "WYLRefreshStateBackFooter.h"
+#import "WYLRefreshStateBackRight.h"
 
-@interface WYLRefreshStateBackFooter ()
+@interface WYLRefreshStateBackRight ()
 
 @property (nonatomic, strong) NSMutableDictionary *stateTitlesDict;
 
 @end
 
-@implementation WYLRefreshStateBackFooter
+@implementation WYLRefreshStateBackRight
 
 - (void)prepare{
     
@@ -24,9 +24,9 @@
     [self addSubview:self.lastUpdateTimeLabel];
     
     //初始化文字
-    [self setTitle:@"上拉即将购买新的章节哦~" forState:WYLRefreshStateIdle];
+    [self setTitle:@"左拉即将购买新的章节哦" forState:WYLRefreshStateIdle];
     [self setTitle:@"松开就会购买啦" forState:WYLRefreshStatePulling];
-    [self setTitle:@"正在购买..." forState:WYLRefreshStateRefreshing];
+    [self setTitle:@"正在购买" forState:WYLRefreshStateRefreshing];
     [self setTitle:@"没法再买啦" forState:WYLRefreshStateNoMoreData];
 
 }
@@ -44,7 +44,7 @@
     self.stateLabel.frame = ({
         
         CGRect frame = self.bounds;
-        frame.size.height = self.wyl_h/2;
+        frame.size.width = self.wyl_w/2;
         frame;
         
     });
@@ -52,8 +52,8 @@
     self.lastUpdateTimeLabel.frame = ({
         
         CGRect frame = self.bounds;
-        frame.origin.y = self.stateLabel.wyl_h;
-        frame.size.height = self.stateLabel.wyl_h;
+        frame.origin.x = self.stateLabel.wyl_x+self.stateLabel.wyl_w;
+        frame.size.width = self.stateLabel.wyl_w;
         frame;
         
     });
@@ -126,6 +126,7 @@
         _stateLabel.textColor = [UIColor blueColor];
         _stateLabel.autoresizingMask = UIViewAutoresizingFlexibleWidth;
         _stateLabel.textAlignment = NSTextAlignmentCenter;
+        _stateLabel.numberOfLines = 0;
         
     }
     
@@ -143,6 +144,7 @@
         _lastUpdateTimeLabel.textColor = [UIColor blueColor];
         _lastUpdateTimeLabel.autoresizingMask = UIViewAutoresizingFlexibleWidth;
         _lastUpdateTimeLabel.textAlignment = NSTextAlignmentCenter;
+        _lastUpdateTimeLabel.numberOfLines = 0;
         
     }
     

@@ -42,11 +42,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "WYLRefresh/WYLRefresh/WYLRefreshBaseView.m"
-            timestampString = "524242835.546772"
+            timestampString = "524247707.353954"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "68"
-            endingLineNumber = "68"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
             landmarkName = "-willMoveToSuperview:"
             landmarkType = "7">
          </BreakpointContent>
@@ -58,11 +58,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "WYLRefresh/WYLRefresh/WYLRefreshBaseView.m"
-            timestampString = "524242845.96334"
+            timestampString = "524247712.050179"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "52"
-            endingLineNumber = "52"
+            startingLineNumber = "71"
+            endingLineNumber = "71"
             landmarkName = "-willMoveToSuperview:"
             landmarkType = "7">
          </BreakpointContent>

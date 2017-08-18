@@ -21,4 +21,9 @@
 @property (assign, nonatomic) CGFloat wyl_contentW;
 @property (assign, nonatomic) CGFloat wyl_contentH;
 
+- (CGFloat)wyl_zoomContentH;
+- (CGFloat)wyl_zoomContentW;
+- (CGFloat)wyl_zoomContentOffSetY;
+- (CGFloat)wyl_zoomContentOffSetX;
+
 @end

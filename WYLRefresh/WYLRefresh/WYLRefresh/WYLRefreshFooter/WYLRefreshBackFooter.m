@@ -14,7 +14,7 @@
     
     CGFloat contentSizeH = self.scrollView.wyl_contentH;
 
-    CGFloat contentHeight = self.scrollView.wyl_y - self.originalScrollInsets.top - self.originalScrollInsets.bottom;
+    CGFloat contentHeight = self.scrollView.wyl_h - self.originalScrollInsets.top - self.originalScrollInsets.bottom;
     
     self.wyl_y = MAX(contentSizeH, contentHeight);
 
@@ -42,37 +42,38 @@
         
         self.alpha = 1.f;
         
-    }
-    
-    if (self.scrollView.dragging) {
-        
-        self.alpha = pullingPercent;
-        
-        //如果offset超过屏幕顶部+footer高度的位置,那么状态变为一松开既刷新
-        if (yOffset > pullingOffset && self.state == WYLRefreshStateIdle) {
-            
-            self.state = WYLRefreshStatePulling;
-            
-        }else if (yOffset < pullingOffset && self.state == WYLRefreshStatePulling){
-            
-            self.state = WYLRefreshStateIdle;
-            
-        }
-        
-    }else{
-        
-        //当松开的状态,不在滑动
-        if (self.state == WYLRefreshStatePulling) {
-            
-            self.state = WYLRefreshStateRefreshing;
-            
-        } else if (pullingPercent < 1) {
+        if (self.scrollView.dragging) {
             
             self.alpha = pullingPercent;
             
+            //如果offset超过屏幕顶部+footer高度的位置,那么状态变为一松开既刷新
+            if (yOffset > pullingOffset && self.state == WYLRefreshStateIdle) {
+                
+                self.state = WYLRefreshStatePulling;
+                
+            }else if (yOffset < pullingOffset && self.state == WYLRefreshStatePulling){
+                
+                self.state = WYLRefreshStateIdle;
+                
+            }
+            
+        }else{
+            
+            //当松开的状态,不在滑动
+            if (self.state == WYLRefreshStatePulling) {
+                
+                self.state = WYLRefreshStateRefreshing;
+                
+            } else if (pullingPercent < 1) {
+                
+                self.alpha = pullingPercent;
+                
+            }
+            
         }
         
     }
+    
 }
 
 - (void)setState:(WYLRefreshState)state{

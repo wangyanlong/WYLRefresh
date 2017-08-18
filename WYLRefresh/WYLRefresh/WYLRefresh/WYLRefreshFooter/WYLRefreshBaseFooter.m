@@ -20,16 +20,21 @@
 
 - (void)endRefreshingWithNoMoreData{
     
+    //把当前的时间存起来
+    [[NSUserDefaults standardUserDefaults]setObject:[NSDate date] forKey:@"lastUpdateDate"];
     self.state = WYLRefreshStateNoMoreData;
     
 }
 
-- (void)prepare{
+- (void)resetSubviews{
     
-    [super prepare];
+    [super resetSubviews];
     
+    self.wyl_y = self.scrollView.wyl_contentH;
+    self.wyl_x = 0.0f;
+    self.wyl_w = self.scrollView.wyl_w;
     self.wyl_h = 44;
-    
+
 }
 
 @end

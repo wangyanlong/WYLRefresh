@@ -9,10 +9,14 @@
 #import <UIKit/UIKit.h>
 #import "WYLRefreshBaseHeader.h"
 #import "WYLRefreshBaseFooter.h"
+#import "WYLRefreshBaseLeft.h"
+#import "WYLRefreshBaseRight.h"
 
 @interface UIScrollView (WYLRefreshCategory)
 
 @property(nonatomic, strong)WYLRefreshBaseHeader *wylHeader;
 @property(nonatomic, strong)WYLRefreshBaseFooter *wylFooter;
+@property(nonatomic, strong)WYLRefreshBaseLeft   *wylLeft;
+@property(nonatomic, strong)WYLRefreshBaseRight  *wylRight;
 
 @end

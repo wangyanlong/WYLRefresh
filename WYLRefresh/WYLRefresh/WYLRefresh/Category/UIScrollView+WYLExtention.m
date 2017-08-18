@@ -106,4 +106,20 @@
     return self.contentSize.height;
 }
 
+- (CGFloat)wyl_zoomContentH{
+    return self.contentSize.height / self.zoomScale;
+}
+
+- (CGFloat)wyl_zoomContentW{
+    return self.contentSize.width / self.zoomScale;
+}
+
+- (CGFloat)wyl_zoomContentOffSetY{
+    return self.contentOffset.y / self.zoomScale;
+}
+
+- (CGFloat)wyl_zoomContentOffSetX{
+    return self.contentOffset.x / self.zoomScale;
+}
+
 @end

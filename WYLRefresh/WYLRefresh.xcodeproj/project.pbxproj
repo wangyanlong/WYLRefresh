@@ -29,6 +29,11 @@
 		188FC00E1EDD957F0089A3A8 /* WYLRefreshAutoFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 188FC00D1EDD957F0089A3A8 /* WYLRefreshAutoFooter.m */; };
 		188FC0341EDDC7670089A3A8 /* WYLRefreshAutoStateFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 188FC0331EDDC7670089A3A8 /* WYLRefreshAutoStateFooter.m */; };
 		188FC0401EDEEF110089A3A8 /* WYLRefreshBackFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 188FC03F1EDEEF110089A3A8 /* WYLRefreshBackFooter.m */; };
+		18E1D9AB1F46EDE4009531FE /* WYLRefreshBaseLeft.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E1D9A11F46EDE4009531FE /* WYLRefreshBaseLeft.m */; };
+		18E1D9AC1F46EDE4009531FE /* WYLRefreshStateLeft.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E1D9A31F46EDE4009531FE /* WYLRefreshStateLeft.m */; };
+		18E1D9AD1F46EDE4009531FE /* WYLRefreshBackRight.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E1D9A61F46EDE4009531FE /* WYLRefreshBackRight.m */; };
+		18E1D9AE1F46EDE4009531FE /* WYLRefreshBaseRight.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E1D9A81F46EDE4009531FE /* WYLRefreshBaseRight.m */; };
+		18E1D9AF1F46EDE4009531FE /* WYLRefreshStateBackRight.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E1D9AA1F46EDE4009531FE /* WYLRefreshStateBackRight.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -73,6 +78,16 @@
 		188FC0331EDDC7670089A3A8 /* WYLRefreshAutoStateFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYLRefreshAutoStateFooter.m; sourceTree = "<group>"; };
 		188FC03E1EDEEF110089A3A8 /* WYLRefreshBackFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYLRefreshBackFooter.h; sourceTree = "<group>"; };
 		188FC03F1EDEEF110089A3A8 /* WYLRefreshBackFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYLRefreshBackFooter.m; sourceTree = "<group>"; };
+		18E1D9A01F46EDE4009531FE /* WYLRefreshBaseLeft.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYLRefreshBaseLeft.h; sourceTree = "<group>"; };
+		18E1D9A11F46EDE4009531FE /* WYLRefreshBaseLeft.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYLRefreshBaseLeft.m; sourceTree = "<group>"; };
+		18E1D9A21F46EDE4009531FE /* WYLRefreshStateLeft.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYLRefreshStateLeft.h; sourceTree = "<group>"; };
+		18E1D9A31F46EDE4009531FE /* WYLRefreshStateLeft.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYLRefreshStateLeft.m; sourceTree = "<group>"; };
+		18E1D9A51F46EDE4009531FE /* WYLRefreshBackRight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYLRefreshBackRight.h; sourceTree = "<group>"; };
+		18E1D9A61F46EDE4009531FE /* WYLRefreshBackRight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYLRefreshBackRight.m; sourceTree = "<group>"; };
+		18E1D9A71F46EDE4009531FE /* WYLRefreshBaseRight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYLRefreshBaseRight.h; sourceTree = "<group>"; };
+		18E1D9A81F46EDE4009531FE /* WYLRefreshBaseRight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYLRefreshBaseRight.m; sourceTree = "<group>"; };
+		18E1D9A91F46EDE4009531FE /* WYLRefreshStateBackRight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYLRefreshStateBackRight.h; sourceTree = "<group>"; };
+		18E1D9AA1F46EDE4009531FE /* WYLRefreshStateBackRight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYLRefreshStateBackRight.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +150,8 @@
 				188FBFF31EDD8A280089A3A8 /* WYLRefreshBaseView.h */,
 				188FBFF41EDD8A280089A3A8 /* WYLRefreshBaseView.m */,
 				188FBFD41EDD50DA0089A3A8 /* arrow@2x.png */,
+				18E1D99F1F46EDE4009531FE /* WYLRefreshLeft */,
+				18E1D9A41F46EDE4009531FE /* WYLRefreshRight */,
 				188FBFEF1EDD89D60089A3A8 /* WYLRefreshFooter */,
 				188FBFDF1EDD66E30089A3A8 /* WYLRefreshHeader */,
 				188FBFC11EDC43100089A3A8 /* Category */,
@@ -187,6 +204,30 @@
 				180537591F3DA7820003B241 /* WYLRefreshStateBackFooter.m */,
 			);
 			path = WYLRefreshFooter;
+			sourceTree = "<group>";
+		};
+		18E1D99F1F46EDE4009531FE /* WYLRefreshLeft */ = {
+			isa = PBXGroup;
+			children = (
+				18E1D9A01F46EDE4009531FE /* WYLRefreshBaseLeft.h */,
+				18E1D9A11F46EDE4009531FE /* WYLRefreshBaseLeft.m */,
+				18E1D9A21F46EDE4009531FE /* WYLRefreshStateLeft.h */,
+				18E1D9A31F46EDE4009531FE /* WYLRefreshStateLeft.m */,
+			);
+			path = WYLRefreshLeft;
+			sourceTree = "<group>";
+		};
+		18E1D9A41F46EDE4009531FE /* WYLRefreshRight */ = {
+			isa = PBXGroup;
+			children = (
+				18E1D9A51F46EDE4009531FE /* WYLRefreshBackRight.h */,
+				18E1D9A61F46EDE4009531FE /* WYLRefreshBackRight.m */,
+				18E1D9A71F46EDE4009531FE /* WYLRefreshBaseRight.h */,
+				18E1D9A81F46EDE4009531FE /* WYLRefreshBaseRight.m */,
+				18E1D9A91F46EDE4009531FE /* WYLRefreshStateBackRight.h */,
+				18E1D9AA1F46EDE4009531FE /* WYLRefreshStateBackRight.m */,
+			);
+			path = WYLRefreshRight;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,9 +305,12 @@
 			files = (
 				188FBFED1EDD66E30089A3A8 /* WYLRefreshNormalHeader.m in Sources */,
 				188FBFEA1EDD66E30089A3A8 /* WYLRefreshBaseHeader.m in Sources */,
+				18E1D9AE1F46EDE4009531FE /* WYLRefreshBaseRight.m in Sources */,
 				1805375A1F3DA7820003B241 /* WYLRefreshStateBackFooter.m in Sources */,
+				18E1D9AB1F46EDE4009531FE /* WYLRefreshBaseLeft.m in Sources */,
 				188FBFF51EDD8A280089A3A8 /* WYLRefreshBaseView.m in Sources */,
 				188FBFCD1EDC62B30089A3A8 /* UIScrollView+WYLRefreshCategory.m in Sources */,
+				18E1D9AF1F46EDE4009531FE /* WYLRefreshStateBackRight.m in Sources */,
 				188FBFF81EDD8A450089A3A8 /* WYLRefreshBaseFooter.m in Sources */,
 				188FBFC01EDC04E60089A3A8 /* RefreshViewController.m in Sources */,
 				188FBFCA1EDC61580089A3A8 /* UIScrollView+WYLExtention.m in Sources */,
@@ -276,10 +320,12 @@
 				188FC0401EDEEF110089A3A8 /* WYLRefreshBackFooter.m in Sources */,
 				188FC0341EDDC7670089A3A8 /* WYLRefreshAutoStateFooter.m in Sources */,
 				188FBFEE1EDD66E30089A3A8 /* WYLRefreshStateHeader.m in Sources */,
+				18E1D9AD1F46EDE4009531FE /* WYLRefreshBackRight.m in Sources */,
 				1878AF9B1EDB1A7F00086425 /* AppDelegate.m in Sources */,
 				188FBFEC1EDD66E30089A3A8 /* WYLRefreshGifHeader.m in Sources */,
 				188FBFC41EDC43180089A3A8 /* UIView+WYLExtention.m in Sources */,
 				1878AF981EDB1A7F00086425 /* main.m in Sources */,
+				18E1D9AC1F46EDE4009531FE /* WYLRefreshStateLeft.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
