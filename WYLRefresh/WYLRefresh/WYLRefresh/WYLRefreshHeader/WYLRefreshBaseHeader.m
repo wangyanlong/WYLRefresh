@@ -110,10 +110,10 @@
             self.scrollView.wyl_insetT = self.originalScrollInsets.top + self.wyl_h;
             self.scrollView.wyl_offsetY = -(self.originalScrollInsets.top + self.wyl_h);
             
+        } completion:^(BOOL finished) {
+            [self beginRefresh];
         }];
-        
-        [self beginRefresh];
-    
+            
     }else if (state == WYLRefreshStateIdle){
         
         [UIView animateWithDuration:0.4f animations:^{

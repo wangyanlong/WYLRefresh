@@ -110,9 +110,9 @@
             self.scrollView.wyl_insetL = self.originalScrollInsets.left + self.wyl_w;
             self.scrollView.wyl_offsetX = -(self.originalScrollInsets.left + self.wyl_w);
             
+        } completion:^(BOOL finished) {
+            [self beginRefresh];
         }];
-        
-        [self beginRefresh];
         
     }else if (state == WYLRefreshStateIdle){
         
